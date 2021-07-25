@@ -1,14 +1,15 @@
-package com.vivek;
+package com.oracle.jenkin.model;
 
 public class Employee {
+
 	private int id;
-	
 	private String name;
+	private long salary;
 	
-	
-	public Employee(int id, String name) {
+	public Employee(int id, String name, long salary) {
 		this.id = id;
 		this.name = name;
+		this.salary = salary;
 	}
 
 	public int getId() {
@@ -27,13 +28,16 @@ public class Employee {
 		this.name = name;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + "]";
+	public long getSalary() {
+		return salary;
+	}
+
+	public void setSalary(long salary) {
+		this.salary = salary;
 	}
 	
 	
-
+	
 	
 	
 }
