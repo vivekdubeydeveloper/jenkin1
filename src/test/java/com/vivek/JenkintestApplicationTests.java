@@ -1,10 +1,10 @@
-package com.oracle.jenkin;
+package com.vivek;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Jenkin1ApplicationTests {
+class JenkintestApplicationTests {
 
 	@Test
 	void contextLoads() {

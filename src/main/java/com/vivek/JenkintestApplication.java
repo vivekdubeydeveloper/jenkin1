@@ -1,13 +1,13 @@
-package com.oracle.jenkin;
+package com.vivek;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Jenkin1Application {
+public class JenkintestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Jenkin1Application.class, args);
+		SpringApplication.run(JenkintestApplication.class, args);
 	}
 
 }
